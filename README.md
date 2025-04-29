@@ -1,5 +1,4 @@
 #  Stock Analysis Visualizer
-#### Video Demo:  <[CLICK HERE](https://youtu.be/e3iSUUcONwI)>
 
 
 ## Introduction
