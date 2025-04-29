@@ -1,0 +1,65 @@
+body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    text-align: -webkit-match-parent;
+    text-align: match-parent;
+    background-color: #5C8A76;
+}
+
+label,
+h3,
+a {
+    color: #FFC107;;
+}
+
+/* Used ChatGPT to help me figure out why the submit button shadow wouldn't change color when told to, but ended up liking it without the shadow altogether */
+button[type="submit"] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #6B8E23;
+}
+
+form button[type="submit"]:focus,
+input:focus,
+select:focus,
+button:focus {
+    box-shadow: 0 0 0 0.1rem #94B447 !important;
+    outline: none;
+}
+
+button:hover,
+button[type="submit"]:hover {
+    background-color: #F2C1C1;
+    color: black;
+}
+
+.accordion,
+.accordion-item,
+.accordion-body,
+.accordion-button {
+    background-color: #729E8D;
+    color: black;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #FFC107;;
+    color: black;
+}
+
+/* Color after being clicked */
+a:visited {
+    color: #FFC107;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-l {
+    margin-bottom: 50px;
+}
+
+.section-2 {
+    margin-top: 20px;
+}
